@@ -1,0 +1,11 @@
+.remove {
+  top: -15px;
+  position: relative;
+  align-self: flex-end;
+}
+.remove button {
+  background-color: #DD3F5B;
+  color: white;
+  border-radius: 31px;
+  border: 0px;
+}

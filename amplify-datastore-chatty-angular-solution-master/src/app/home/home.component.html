@@ -1,0 +1,24 @@
+<div class="app-body">
+  <div>
+    <div class="form-body">
+      <form autocomplete="off" [formGroup]="createForm" (ngSubmit)="onCreate(createForm.value)">
+        <div class="input"><input class="message-input" type="text" formControlName="message" autocomplete="off" placeholder="Enter your message..."></div>
+        <button type="submit">Send</button>
+        <button type="button" (click)="onDeleteAll()">Delete All</button>
+      </form>
+    </div>
+  </div>
+  <span *ngIf="loading;">Loading...</span>
+  <div class="chatty-container">
+    <div class="chatty">
+      <div *ngFor="let message of messages">
+        <div [ngClass]="(this.user === message.user)? 'me' : 'others'">
+          <div class="message-container">
+            <div class="message-user">{{ message.user }} <span class="message-time" title="{{ moment(message.createdAt).format('YYYY-MM-DD HH:mm:ss') }}">{{ moment(message.createdAt).format('HH:mm:ss')}}</span></div>
+            <div class="message-text">{{ message.message }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

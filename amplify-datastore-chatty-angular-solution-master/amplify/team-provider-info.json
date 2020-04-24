@@ -1,0 +1,56 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-datastore-dev-172532-authRole",
+            "UnauthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-dev-172532-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-dev-172532-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-amplify-datastore-dev-172532-deployment",
+            "UnauthRoleName": "amplify-amplify-datastore-dev-172532-unauthRole",
+            "StackName": "amplify-amplify-datastore-dev-172532",
+            "StackId": "arn:aws:cloudformation:eu-west-2:664371068953:stack/amplify-amplify-datastore-dev-172532/3e8e40c0-7823-11ea-8dba-021679f87d94",
+            "AmplifyAppId": "d1y45xhgshyeig"
+        },
+        "categories": {
+            "auth": {
+                "amplifydatastore28f63562": {}
+            }
+        }
+    },
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-datastore-master-172847-authRole",
+            "UnauthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-master-172847-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-master-172847-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-amplify-datastore-master-172847-deployment",
+            "UnauthRoleName": "amplify-amplify-datastore-master-172847-unauthRole",
+            "StackName": "amplify-amplify-datastore-master-172847",
+            "StackId": "arn:aws:cloudformation:eu-west-2:664371068953:stack/amplify-amplify-datastore-master-172847/b268e9f0-7823-11ea-ac31-0a5f6fd32d44",
+            "AmplifyAppId": "d1y45xhgshyeig"
+        },
+        "categories": {
+            "auth": {
+                "amplifydatastore28f63562": {}
+            }
+        }
+    },
+    "deva": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-datastore-deva-173324-authRole",
+            "UnauthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-deva-173324-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::664371068953:role/amplify-amplify-datastore-deva-173324-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-amplify-datastore-deva-173324-deployment",
+            "UnauthRoleName": "amplify-amplify-datastore-deva-173324-unauthRole",
+            "StackName": "amplify-amplify-datastore-deva-173324",
+            "StackId": "arn:aws:cloudformation:eu-west-2:664371068953:stack/amplify-amplify-datastore-deva-173324/57a3f4a0-7824-11ea-a25a-064d74357b0e",
+            "AmplifyAppId": "d1y45xhgshyeig"
+        },
+        "categories": {
+            "auth": {
+                "amplifydatastore28f63562": {}
+            }
+        }
+    }
+}

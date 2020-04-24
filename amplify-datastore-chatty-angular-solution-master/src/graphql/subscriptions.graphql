@@ -1,0 +1,34 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateChatty {
+  onCreateChatty {
+    id
+    user
+    message
+    createdAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateChatty {
+  onUpdateChatty {
+    id
+    user
+    message
+    createdAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteChatty {
+  onDeleteChatty {
+    id
+    user
+    message
+    createdAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

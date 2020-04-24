@@ -1,0 +1,17 @@
+{
+    "projectName": "amplify-datastore",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist/amplify-datastore",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "ng serve --host ec2-34-253-74-69.eu-west-1.compute.amazonaws.com"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
